@@ -1,0 +1,12 @@
+---
+- src: git@github.com:yshchegolev/ansible-role-docker.git
+  name: docker
+  version: main
+  scm: git
+  path: roles
+
+- src: git@github.com:yshchegolev/ansible-role-application.git
+  name: application
+  version: main
+  scm: git
+  path: roles
